@@ -46,7 +46,7 @@ header{
 
 /* ZONA CONATINAER CON REGOLE PER ROW E COL BASE  */
 main{
-    min-height: 85vh;
+    min-height: 87vh;
     background-color: black;
     color: white;
     padding: 25px 0;
@@ -91,7 +91,7 @@ main{
  /* zona footer  */
 
  footer{
-    height: 10vh;
+    height: 8vh;
     background-color: #222222;
     display: flex;
     justify-content: space-between;
