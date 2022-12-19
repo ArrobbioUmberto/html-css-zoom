@@ -9,19 +9,11 @@ a{
 ul, li{
     list-style-type: none;
 }
-.row{
-    min-height: 80vh;
+
+/* ZONA HEADER CON SPEAKER  */
+header{
+    height: 5vh;
     background-color: black;
-}
-footer{
-    height: 20vh;
-    background-color: #222222;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    color: white;
-}
-.container{
     color: white;
 }
 .speaker{
@@ -50,4 +42,50 @@ footer{
     content: "\f00a";
     font-weight: 900;
     margin-right: 5px;
+}
+
+/* ZONA CONATINAER CON REGOLE PER ROW E COL BASE  */
+main{
+    min-height: 85vh;
+    background-color: black;
+    color: white;
+    padding: 25px 0;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ 
+ .container{
+    max-width: 1816px;
+    margin: 0px 92px;
+    background-color: green;
+ }
+ .col{
+    width: 180px;
+    height: 129px;
+    background-color: red;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg/800px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg");
+    background-size: cover;
+    padding: -5px;
+    margin: 5px;
+ }
+
+
+
+ /* zona footer  */
+
+ footer{
+    height: 10vh;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    color: white;
+}
+ul{
+    display: flex;
+    flex-direction: row;
 }
