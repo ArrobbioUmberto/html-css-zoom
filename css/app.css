@@ -95,10 +95,115 @@ main{
     background-color: #222222;
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
     color: white;
 }
 ul{
     display: flex;
     flex-direction: row;
+}
+ul li{
+    padding: 5px 10px;
+}
+.microphone::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f130";
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+#arrow{
+    line-height: 60px;
+}   
+.stop__video::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f03d";
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.invite::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f234";
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.manage::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f500";
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.polling::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f130";
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.share::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f130";
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.chat::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f130";
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.record::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f130";
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.breakout::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f130";
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.more::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f130";
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 5px;
 }
