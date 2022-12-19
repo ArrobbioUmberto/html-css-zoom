@@ -61,19 +61,31 @@ main{
  .container{
     max-width: 1816px;
     margin: 0px 92px;
-    background-color: green;
  }
  .col{
     width: 180px;
-    height: 129px;
-    background-color: red;
+    height: 120px;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg/800px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg");
     background-size: cover;
-    padding: -5px;
-    margin: 5px;
+    margin: 3px;
+    position: relative;
  }
-
-
+ .user{
+    background-color:#6a7480 ;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+ }
+ .user__text{
+    line-height: 15px;
+ }
+ .user::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f131";
+    font-weight: 900;
+    color: white;
+ }
 
  /* zona footer  */
 
