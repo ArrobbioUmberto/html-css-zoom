@@ -72,6 +72,7 @@ main{
  }
  .user{
     background-color:#6a7480 ;
+    opacity: 0.8;
     color: white;
     position: absolute;
     bottom: 0;
