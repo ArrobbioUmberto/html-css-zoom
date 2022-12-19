@@ -63,8 +63,8 @@ main{
     margin: 0px 92px;
  }
  .col{
-    width: 180px;
-    height: 120px;
+    width: 13vw;
+    height: 15vh;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg/800px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg");
     background-size: cover;
     margin: 3px;
