@@ -26,19 +26,28 @@ footer{
 }
 .speaker{
     display: flex;
-    justify-content: end;
-    width: 140px;  
+    justify-content: end; 
 }
 .speaker__view{
-    width: 110px;
     line-height: 30px;
     text-align: center;
+    padding: 0 5px;
 }
 .speaker__icon{
     width: 30px;
-    height: 30px;
+    height: fit-content;
+    text-align: center;
+    padding: 8px;
 }
 .speaker__icon, .speaker__view{
     background-color: #4a4a4a;
     border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.speaker__view::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f00a";
+    font-weight: 900;
+    margin-right: 5px;
 }
