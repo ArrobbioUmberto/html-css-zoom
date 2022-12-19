@@ -149,7 +149,7 @@ ul li{
 }
 .polling::before{
     font-family: "Font Awesome 6 Free";
-    content: "\f130";
+    content: "\e0e3";
     font-weight: 900;
     color: white;
     font-size: 25px;
@@ -159,9 +159,9 @@ ul li{
 }
 .share::before{
     font-family: "Font Awesome 6 Free";
-    content: "\f130";
+    content: "\f14d";
     font-weight: 900;
-    color: white;
+    color: #4ccd00;
     font-size: 25px;
     display: block;
     text-align: center;
@@ -169,7 +169,7 @@ ul li{
 }
 .chat::before{
     font-family: "Font Awesome 6 Free";
-    content: "\f130";
+    content: "\f075";
     font-weight: 900;
     color: white;
     font-size: 25px;
@@ -179,7 +179,7 @@ ul li{
 }
 .record::before{
     font-family: "Font Awesome 6 Free";
-    content: "\f130";
+    content: "\f8d9";
     font-weight: 900;
     color: white;
     font-size: 25px;
@@ -189,7 +189,7 @@ ul li{
 }
 .breakout::before{
     font-family: "Font Awesome 6 Free";
-    content: "\f130";
+    content: "\f009";
     font-weight: 900;
     color: white;
     font-size: 25px;
@@ -199,11 +199,18 @@ ul li{
 }
 .more::before{
     font-family: "Font Awesome 6 Free";
-    content: "\f130";
+    content: "\f141";
     font-weight: 900;
     color: white;
     font-size: 25px;
     display: block;
     text-align: center;
     padding: 5px;
+}
+.footer__end{
+    color: red;
+    background-color:#4a4a4a ;
+    line-height: 40px;
+    padding: 23px;
+    font-weight: bold;
 }
