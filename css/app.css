@@ -9,3 +9,36 @@ a{
 ul, li{
     list-style-type: none;
 }
+.row{
+    min-height: 80vh;
+    background-color: black;
+}
+footer{
+    height: 20vh;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    color: white;
+}
+.container{
+    color: white;
+}
+.speaker{
+    display: flex;
+    justify-content: end;
+    width: 140px;  
+}
+.speaker__view{
+    width: 110px;
+    line-height: 30px;
+    text-align: center;
+}
+.speaker__icon{
+    width: 30px;
+    height: 30px;
+}
+.speaker__icon, .speaker__view{
+    background-color: #4a4a4a;
+    border-radius: 10px;
+}
